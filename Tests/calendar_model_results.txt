@@ -1,0 +1,1 @@
+PASS: 815232 NY hourly offsets, 815232 EU hourly offsets, 23064 broker gap/fold checks, 372 NY session checks (2007-2099). Calendar-model tests only; MQL compilation/runtime not exercised.

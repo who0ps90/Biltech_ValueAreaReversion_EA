@@ -1,0 +1,10 @@
+test_combined_deals_excluded_from_completed_summary (test_analyze_logs.AnalyzeLogsTests.test_combined_deals_excluded_from_completed_summary) ... ok
+test_duplicate_position_rejected (test_analyze_logs.AnalyzeLogsTests.test_duplicate_position_rejected) ... ok
+test_mixed_ownership_rejected (test_analyze_logs.AnalyzeLogsTests.test_mixed_ownership_rejected) ... ok
+test_no_loss_profit_factor_is_null (test_analyze_logs.AnalyzeLogsTests.test_no_loss_profit_factor_is_null) ... ok
+test_stats_costs_months_directions_and_loss_streak (test_analyze_logs.AnalyzeLogsTests.test_stats_costs_months_directions_and_loss_streak) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK

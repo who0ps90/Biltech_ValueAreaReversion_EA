@@ -1,0 +1,2 @@
+PASS: packaging, 12 MQL source delimiter/include scans, 37 parsed inputs, 3 preset input-name checks.
+This command does not perform MQL5 compilation, native self-tests, MT5 execution, visual audit or backtests.
