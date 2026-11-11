@@ -1,0 +1,42 @@
+; UNVALIDATED research example - gold on the selected broker chart symbol.
+; Configure verified historical clock and positive maximum spread in POINTS.
+; Clock rule 0 and spread 0 intentionally FAIL INIT until configured.
+; Commission/slippage zeros are placeholders, not a cost assumption.
+; Use a NEW RunId for every independent test. Do not optimize this template.
+InpRunId=gold_M15_UNVALIDATED_001
+InpConfigLabel=Gold_M15_VA70_UNVALIDATED
+InpMagic=26002501
+InpSessionMode=0
+InpBrokerOffsetRule=0
+InpBrokerWinterUTCMinutes=120
+InpBrokerSummerUTCMinutes=180
+InpCustomBoundaryMinutes=1080
+InpVolumeMode=2
+InpProfileRows=100
+InpValueAreaPercent=70.0
+InpMinProfileM1Bars=1000
+InpMinProfileCoveragePercent=90.0
+InpMaxProfileGapMinutes=90
+InpMaxProfileEdgeGapMinutes=180
+InpSignalTimeframe=15
+InpMaxReclaimBars=5
+InpRequireEngulfing=true
+InpEntryStartNYMinutes=525
+InpEntryEndNYMinutes=660
+InpMaxEntryDelaySeconds=60
+InpATRPeriod=14
+InpBufferTicks=2.0
+InpATRBufferFraction=0.10
+InpMinRewardRisk=1.5
+InpRiskPercent=0.25
+InpDailyLossPercent=0.75
+InpInitialDayEquity=0.0
+InpCommissionRoundTurnPerLot=0.0
+InpSlippageTicksPerSide=0.0
+InpMaxSpreadPoints=0.0
+InpOrderDeviationPoints=20
+InpForceExit=true
+InpForceExitNYMinutes=955
+InpUseBlackouts=false
+InpBlackoutFile=Biltech_blackouts.csv
+InpShowVisuals=true
