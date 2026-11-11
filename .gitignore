@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.ex5
+Biltech_*_journal.csv
+Biltech_*_signals.csv
+Biltech_*_trades.csv

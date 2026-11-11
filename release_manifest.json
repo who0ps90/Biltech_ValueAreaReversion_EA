@@ -1,0 +1,179 @@
+{
+  "project": "Biltech_ValueAreaReversion_EA",
+  "evidence_date": "2026-10-25",
+  "timezone": "Asia/Kuala_Lumpur",
+  "compiler": "MetaEditor 5.0.0.6281",
+  "ea_compilation": "0 errors, 0 warnings",
+  "native_test_compilation": "0 errors, 0 warnings; 171 assertions compiled, NOT EXECUTED",
+  "host_analysis_tests": "5 synthetic tests passed",
+  "host_calendar_model": "815232 NY offsets + 815232 EU offsets + 23064 gap/fold checks + 372 sessions passed",
+  "historical_backtest": "NOT PERFORMED",
+  "broker_account_connected": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 90,
+      "sha256": "d6383fec274e7bcf06ca54751a8913922d541de3484a02f1546b66c090c48e79"
+    },
+    {
+      "path": "Biltech_ValueAreaReversion_EA.ex5",
+      "bytes": 136038,
+      "sha256": "da348093228e675dc902a01086be9e6eda34b948b9aa738c385d270df0501ae0"
+    },
+    {
+      "path": "Biltech_ValueAreaReversion_EA.mq5",
+      "bytes": 46109,
+      "sha256": "0c711ec26d240b93587beacee715fca744574defc79d967ef22d78c91d5a6868"
+    },
+    {
+      "path": "Docs/AssumptionsAndLimitations.md",
+      "bytes": 5220,
+      "sha256": "62a0ce91b053d5ad90b1ec9e5737a621afc2a8035b8c7a2d2046789980ae0fb7"
+    },
+    {
+      "path": "Docs/Inputs.md",
+      "bytes": 9697,
+      "sha256": "050215681cbbcd50ca4730ad509631310f61720d494b212f4797feeacca29741"
+    },
+    {
+      "path": "Docs/ResearchProtocol.md",
+      "bytes": 7013,
+      "sha256": "c46bb5498fa1eb8b0fe8b8a26b4f87f2922ab2b4faf4a7be54ab29fccfa6d497"
+    },
+    {
+      "path": "Docs/Validation.md",
+      "bytes": 9810,
+      "sha256": "f36028437946ba971a50096a8e1c6a484947650c2a6d7b54681affe2b7ed6086"
+    },
+    {
+      "path": "Examples/blackouts.example.csv",
+      "bytes": 208,
+      "sha256": "c7b88053b224066da96b65df92f1382c603dde3f380d44a7e9d70842326eaaff"
+    },
+    {
+      "path": "Include/BVExecution.mqh",
+      "bytes": 9222,
+      "sha256": "e69062d4865520c8bbef333d619f5c84af519f728e5ae08f615c97a360d9fcce"
+    },
+    {
+      "path": "Include/BVJournal.mqh",
+      "bytes": 7365,
+      "sha256": "9e1af0076777c10708c0eab9f82aa67e873d221ecba0c355e4ba49230396170c"
+    },
+    {
+      "path": "Include/BVProfile.mqh",
+      "bytes": 9272,
+      "sha256": "dc7c84c529f4d20ef43283d1df4862ff4a4b38892a1cca9545fe023550c51c47"
+    },
+    {
+      "path": "Include/BVSignal.mqh",
+      "bytes": 6001,
+      "sha256": "cf0fe6272103a5590699bf92a0b0b9e5af165e32fb85573f744e5a6a869812dc"
+    },
+    {
+      "path": "Include/BVTime.mqh",
+      "bytes": 11621,
+      "sha256": "54b0827b2b0813a8155629bbc2d6e60fbf6a349c129ca763c067352ebf62ed68"
+    },
+    {
+      "path": "Include/BVTypes.mqh",
+      "bytes": 1794,
+      "sha256": "eebc5ab3fd9f601d76664abdf72590e94e64df817663592e095a4216cdc39d9c"
+    },
+    {
+      "path": "Presets/Gold_M15_UNVALIDATED.set",
+      "bytes": 1300,
+      "sha256": "eb4c95d1f5271253f997d149b05ca0c1460a29eb617e007bd3cbccc99ff6c9f0"
+    },
+    {
+      "path": "Presets/Nasdaq100_M15_UNVALIDATED.set",
+      "bytes": 1310,
+      "sha256": "915c243d146a6a7c5b74914c6b1c6f77334547f5eea5a37b6acb145f9dc57a2b"
+    },
+    {
+      "path": "Presets/US30_M15_UNVALIDATED.set",
+      "bytes": 1299,
+      "sha256": "bffbea67de47601c9471c5bdfcccdfc8cf60e12aebe9054ec65cebaf7b02bc36"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14640,
+      "sha256": "a3af0d9acb879cc74bd167c6d04cfb25c36d935b52132d9f2aa9b432e44c3d78"
+    },
+    {
+      "path": "Tests/analysis_test_results.txt",
+      "bytes": 730,
+      "sha256": "35062ef964fc4ce12f8fb66cefc8ce2b324335f374c89cbe8b58e09b5f2c6ff1"
+    },
+    {
+      "path": "Tests/analyze_logs.py",
+      "bytes": 8602,
+      "sha256": "b3866453b0c773710070181870527cd734b4ad6c4648a0feafec92f0959d0ac2"
+    },
+    {
+      "path": "Tests/BVCoreTests.mqh",
+      "bytes": 15743,
+      "sha256": "b377969deafd2cae144bd722074851944803dbbb37a3a8533bdf62f2f2b8f70d"
+    },
+    {
+      "path": "Tests/BVExecutionTests.mqh",
+      "bytes": 11083,
+      "sha256": "25b7bf6be02285d99e7559c65374db0c72fcf478ceb79b0573235adc5aa765d2"
+    },
+    {
+      "path": "Tests/BVJournalTests.mqh",
+      "bytes": 10380,
+      "sha256": "2b0ce3d1903c91cc538c09d5de4371a0894f38ce02f6234c2d61aaf0e35e3663"
+    },
+    {
+      "path": "Tests/BVSelfTest.ex5",
+      "bytes": 78506,
+      "sha256": "a03685a4c18c65a3ae802326270bb53de859a7a28d524829353307ba54dda8a5"
+    },
+    {
+      "path": "Tests/BVSelfTest.mq5",
+      "bytes": 881,
+      "sha256": "2ed7f3a40e1289ad87a4f96d317390e2d43940747e535a11c3a184054b7010e7"
+    },
+    {
+      "path": "Tests/BVTimeTests.mqh",
+      "bytes": 6741,
+      "sha256": "adcd754a219d5d1f34443c3068cec7314ee3863cfe4cf234e7221b4090b7aa91"
+    },
+    {
+      "path": "Tests/calendar_model_results.txt",
+      "bytes": 190,
+      "sha256": "46e2034d78092adb393ea0747615f358ef28561636a979aa37ce6aa3659dc3eb"
+    },
+    {
+      "path": "Tests/compile_main.log",
+      "bytes": 5806,
+      "sha256": "441928c8d21545a3ee37f1495d3815a832b1571ca835c892e7accf9bc4aaa953"
+    },
+    {
+      "path": "Tests/compile_selftest.log",
+      "bytes": 7278,
+      "sha256": "55b2aa5ac143a5f3b0fb2c3e6dddb2aa26e22e2c8ae13691c77cfe9abb38849c"
+    },
+    {
+      "path": "Tests/structural_results.txt",
+      "bytes": 213,
+      "sha256": "9923691b603718dd5479f39b9f57c6c4bb02a0b4362b783ddd12c9d8ed6c372d"
+    },
+    {
+      "path": "Tests/test_analyze_logs.py",
+      "bytes": 3426,
+      "sha256": "e7dd6000c1c046f9625d3121522374429e743e1f3913ca3fb44a517dc4e5e845"
+    },
+    {
+      "path": "Tests/verify_source.py",
+      "bytes": 5107,
+      "sha256": "51737137ce8f09b1da0031e1c4e2ee4911171035e8a49449ecb668cd63a5c7e0"
+    },
+    {
+      "path": "Tests/VerifyTimeMapping.ps1",
+      "bytes": 4599,
+      "sha256": "0f5974fb0d8c742e8634ea63749e84dfcb25cd7f6d3a1c56f57f50e423493197"
+    }
+  ]
+}
